@@ -411,6 +411,6 @@ def is_good_snippet(snippet, len_range, min_text_frac, exclude_en):
             return False
     return True
 
-
+# example arg '--langs en'
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
